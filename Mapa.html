@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa Odnośników</title>
+    <style>
+   
+   html,body{
+    margin:0;
+    height:100%;
+    text-align: center
+}
+  </style>
+</head>
+<body>
+    <img src="tort.png" alt="Tort z odnośnikami" usemap="#mojaMapa">
+    <map id="mojaMapa" name="mojaMapa">
+        <area shape="circle" coords="773,222,40" href="1.html" onclick="window.open(this.href, '_blank', 'width=500,height=500'); return false;" alt="1">
+        <area shape="rect" coords="492,164,527,261" href="2.html" onclick="window.open(this.href, '_blank', 'width=500,height=500'); return false;"  alt="2">
+        <area shape="poly" coords="506,429,471,460,478,534,524,487" href="3.html" onclick="window.open(this.href, '_blank', 'width=500,height=500'); return false;"  alt="3">
+        <area shape="rect" coords="754,431,790,532" href="4.html"onclick="window.open(this.href, '_blank', 'width=500,height=500'); return false;" alt="4">
+    </map>
+</body>
+</html>
